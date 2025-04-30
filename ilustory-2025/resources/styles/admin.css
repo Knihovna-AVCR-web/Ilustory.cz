@@ -1,0 +1,40 @@
+.contest-table-container {
+    border: 1px solid #333;
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+}
+
+.contest-table {
+    background: white;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    color: #333;
+    font-size: 12px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.contest-table thead th,
+.contest-table tfoot th {
+    color: #777;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.contest-table caption {
+    padding: 0.5em;
+}
+
+.contest-table th,
+.contest-table td {
+    padding: 0.5em;
+    border: 1px solid lightgrey;
+}
+
+.contest-table tr:hover {
+    background-color: rgb(253, 211, 211);
+}
+
+.contest-table tr:nth-child(even) {
+    background: rgb(245, 245, 245);
+}
