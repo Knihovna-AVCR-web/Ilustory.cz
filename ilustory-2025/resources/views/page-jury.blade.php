@@ -36,6 +36,31 @@
     .font-small{
         font-size: small;
     }
+    .juror {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    @media (max-width: 768px) {
+        .juror {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .juror .photo {
+            width: 100%;
+            max-width: 450px;
+        }
+        .juror .photo img {
+            width: 100%;
+        }
+        .juror .desc {
+            margin: 0;
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+        }
+    }
     </style>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
